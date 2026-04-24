@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
   <!-- StyleSheet -->
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/6f18932376.js" crossorigin="anonymous"></script>
   
   <title>Frontend Mentor | [Blogr]</title>
 
@@ -18,29 +22,79 @@
   </style>
 </head>
 <body>
-  Product
+  <header>
+    <div class="CTA-banner">
+      <div class="container">
+        <nav>
+          <div class="nav-bar">
+            <div class="logo">
+              <img src="/images/logo.svg" alt="">
+            </div>
 
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
+            <button class="hamburger">
+              <img src="/images/icon-hamburger.svg" alt="">
+            </button>
+          </div>
 
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-
-  Contact
-  Newsletter
-  LinkedIn
+          <div class="nav-links">
+            <div class="nav-links-wrapper">
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <button href="#" class="dropdown-btn">
+                    <div class="dropdown-btn-content">
+                      <span class="dropdown-btn-text">Product</span>
+                      <img src="/images/icon-arrow-dark.svg" alt="arrow icon" class="dropdown-icon">
+                    </div>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-menu-link">Overview</a>
+                    <a href="#" class="dropdown-menu-link">Pricing</a>
+                    <a href="#" class="dropdown-menu-link">Marketplace</a>
+                    <a href="#" class="dropdown-menu-link">Features</a>
+                    <a href="#" class="dropdown-menu-link">Integrations</a>
+                  </div>
+                </li>
+    
+                <li class="dropdown-item">
+                  <button href="#" class="dropdown-btn">
+                    <div class="dropdown-btn-content">
+                      <span class="dropdown-btn-text">Company</span>
+                      <img src="/images/icon-arrow-dark.svg" alt="arrow icon" class="dropdown-icon">
+                    </div>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-menu-link">About</a>
+                    <a href="#" class="dropdown-menu-link">Team</a>
+                    <a href="#" class="dropdown-menu-link">Blog</a>
+                    <a href="#" class="dropdown-menu-link">Careers</a>
+                  </div>
+                </li>
+    
+                <li class="dropdown-item">
+                  <button href="#" class="dropdown-btn">
+                    <div class="dropdown-btn-content">
+                      <span class="dropdown-btn-text">Connect</span>
+                      <img src="/images/icon-arrow-dark.svg" alt="arrow icon" class="dropdown-icon">
+                    </div>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-menu-link">Contact</a>
+                    <a href="#" class="dropdown-menu-link">Newsletter</a>
+                    <a href="#" class="dropdown-menu-link">LinkedIn</a>
+                  </div>
+                </li>
+              </ul>
   
-  Login
-  Sign Up
+              <div class="user-auth">
+                <a href="#" class="login">Login</a>
+                <a href="#" class="signup">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
 
   A modern publishing platform
   Grow your audience and build your online brand

@@ -1,0 +1,118 @@
+/* Presets */
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+/* Presets End */
+
+.CTA-banner {
+    background:  url(/images/bg-pattern-intro-mobile.svg), linear-gradient(to right, #ff8f70, #ff3d54);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-bottom-left-radius: 80px;
+    height: 400px;
+    padding: 20px 30px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.hamburger {
+    background: none;
+}
+
+.nav-links {
+    display: none;
+    position: relative;
+    margin-top: 50px;
+}
+
+.nav-links-wrapper {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-shadow: 3px 8px 18px 3px rgba(0, 0, 0, 0.2)
+}
+
+.dropdown-item {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.dropdown-item:last-child {
+    margin-bottom: 0;
+}
+
+/* DROPDOWN MENU BUTTON */
+.dropdown-btn {
+    background: transparent;
+    padding: 8px 24px;
+
+}
+.dropdown-btn-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dropdown-btn-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #25252d;
+}
+.dropdown-icon {
+    margin-top: 10px;
+}
+/* DROPDOWN MENU BUTTON  END */
+
+/* DROPDOWN MENU */
+.dropdown-menu {
+    display: none;
+    padding: 30px 0;
+    margin-top: 30px;
+    border-radius: 5px;
+    background: #e0e0e6;
+}
+.dropdown-menu a {
+    display: block;
+    margin-bottom: 20px;
+}
+.dropdown-menu a:last-child {
+    margin-bottom: 0;
+}
+.dropdown-menu.active {
+    display: block;
+}
+/* DROPDOWN MENU END */
+
+.user-auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    padding: 30px 0;
+    border-top: 2px solid #e0e0e6;
+}
+.user-auth a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #25252d;
+}
+.user-auth .signup {
+    background: linear-gradient(to right, #ff8f70 20%, #ff3d54);
+    padding: 8px 32px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+
+
+
+/* MEDIA QUERIES */

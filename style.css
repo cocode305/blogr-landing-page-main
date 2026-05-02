@@ -66,7 +66,7 @@ button {
     color: #25252d;
 }
 .dropdown-icon {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 /* DROPDOWN MENU BUTTON  END */
 
@@ -89,6 +89,9 @@ button {
 .dropdown-menu.active {
     display: block;
 }
+/* .dropdown-menu.active .dropdown-icon {
+    transform: rotate(20deg);
+} */
 /* DROPDOWN MENU END */
 
 .user-auth {
@@ -162,6 +165,39 @@ button {
 }
 /* HERO CONTENT END */
 
+/* FEATURES SECTION */
+.features {
+    padding: 100px 30px;
+}
+.features-title {
+    text-align: center;
+    color: #1f3f5b;
+    font-weight: 600;
+}
+.features-content {
+    margin-top: 3rem;
+}
+.features-illustration picture {
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+}
+.features-copy {
+    margin-top: 2rem;
+    text-align: center;
+}
+.features-heading {
+    color: #1f3f5b;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.features-text {
+    color: #4b5862;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+/* FEATURES SECTION END */
 
 
 /* MEDIA QUERIES */
@@ -225,13 +261,6 @@ button {
         font-size: 1rem;
         color: #ffffff;
     }
-    .dropdown-icon {
-        margin-top: 5px;
-    }
-    .dropdown-icon path {
-        stroke: #ffffff;
-    }
-
     .dropdown-menu {
         width: 180px;
         position: absolute;
@@ -278,4 +307,41 @@ button {
         font-size: 1.2rem;
     }
     /* HERO CONTENT END */
+
+    
+}
+
+@media (min-width: 1140px) {
+    /* FEATURES SECTION */
+    .features {
+        overflow: hidden;
+    }
+    .features-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        align-items: center;
+    }
+    .features-illustration {
+        order: 2;
+    }
+    /* .features-illustration picture {
+        
+    } */
+    .features-copy {
+        order: 1;
+        text-align: left;
+    }
+    .features-heading {
+        color: #1f3f5b;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .features-text {
+        color: #4b5862;
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    /* FEATURES SECTION END */
 }

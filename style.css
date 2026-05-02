@@ -158,11 +158,6 @@ button {
     border: 2px solid #ffffff;
     transition: background .3s ease;
 }
-.cta-secondary-btn:hover {
-    background: #ffffff;
-    color: #ff3d54;
-    border: 2px solid #ffffff;
-}
 /* HERO CONTENT END */
 
 /* FEATURES SECTION */
@@ -188,7 +183,7 @@ button {
 }
 .features-heading {
     color: #1f3f5b;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 .features-text {
@@ -312,6 +307,11 @@ button {
     .cta-btn {
         padding: 15px 32px;
         font-size: 1.2rem;
+    }
+    .cta-secondary-btn:hover {
+        background: #ffffff;
+        color: #ff3d54;
+        border: 2px solid #ffffff;
     }
     /* HERO CONTENT END */
 

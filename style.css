@@ -125,14 +125,14 @@ button {
 .hero-title {
     color: #ffffff;
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 1.2;
 }
 .hero-sub-title {
     color: #ffffff;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-top: 1rem;
 }
@@ -141,12 +141,12 @@ button {
     margin-top: 3rem;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 .cta-btn {
-    padding: 15px 32px;
+    padding: 15px 24px;
     border-radius: 30px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 .cta-primary-btn {
@@ -188,7 +188,7 @@ button {
 }
 .features-heading {
     color: #1f3f5b;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 600;
 }
 .features-text {
@@ -304,6 +304,13 @@ button {
         font-size: 3.5rem;
     }
     .hero-sub-title {
+        font-size: 1.2rem;
+    }
+    .cta-btns {
+        gap: 30px;
+    }
+    .cta-btn {
+        padding: 15px 32px;
         font-size: 1.2rem;
     }
     /* HERO CONTENT END */

@@ -29,7 +29,7 @@ dropDownList.addEventListener('click', (e) => {
     let dropDownMenu = dropDownItem.querySelector(".dropdown-menu");
 
     // Handle Desktop Dropdown Menus
-    if (body.clientWidth >= 1140) {
+    if (body.clientWidth >= 768) {
       // Remove active class if found
       if (dropDownMenu.classList.contains("active")) {
         dropDownMenu.classList.remove("active");

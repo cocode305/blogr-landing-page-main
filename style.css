@@ -159,45 +159,96 @@ button {
 }
 /* HERO CONTENT END */
 
-/* FEATURES SECTION */
-.features {
+/* ABOUT SECTION */
+.about {
     padding: 100px 30px;
 }
-.features-title {
+.about-title {
     text-align: center;
     color: #1f3f5b;
     font-weight: 600;
 }
-.features-content {
+.about-content {
     margin-top: 3rem;
 }
-.features-illustration picture {
+.about-illustration picture {
     display: flex; 
     justify-content: center;
     width: 100%;
 }
-.features-copy {
+.about-copy {
     margin-top: 2rem;
     text-align: center;
 }
-.features-heading {
+.about-heading {
     color: #1f3f5b;
     font-size: 1.8rem;
     font-weight: 600;
 }
-.features-text {
+.about-text {
     color: #4b5862;
     font-size: 1rem;
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
-/* FEATURES SECTION END */
+/* ABOUT SECTION END */
+
+/* FEATURE SECTION */
+.feature {
+    background:  url(/images/bg-pattern-circles.svg), #25252d;
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+    background-size: 100%;
+
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+
+    margin-top: 100px;
+}
+
+.feature-content {
+    position: relative;
+}
+
+.feature-illustration {
+    display: block;
+    margin: 0 auto;
+    
+    position: absolute;
+    top: -180px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.feature-text-content {
+    padding: 250px 30px 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.feature-text-content p{
+    margin-top: 1.5rem;
+}
+/* FEATURE SECTION END */
 
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
     .nav-links.open {
         display: block;
+    }
+}
+
+@media (min-width: 468px) {
+    .feature-text-content {
+        padding: 300px 30px 100px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .feature-text-content h2 {
+        font-size: 1.8rem;
     }
 }
 
@@ -318,36 +369,36 @@ button {
 }
 
 @media (min-width: 1140px) {
-    /* FEATURES SECTION */
-    .features {
+    /* ABOUT SECTION */
+    .about {
         overflow: hidden;
     }
-    .features-content {
+    .about-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 50px;
         align-items: center;
     }
-    .features-illustration {
+    .about-illustration {
         order: 2;
     }
     /* .features-illustration picture {
         
     } */
-    .features-copy {
+    .about-copy {
         order: 1;
         text-align: left;
     }
-    .features-heading {
+    .about-heading {
         color: #1f3f5b;
         font-size: 1.5rem;
         font-weight: 600;
     }
-    .features-text {
+    .about-text {
         color: #4b5862;
         font-size: 1rem;
         margin-top: 1rem;
         margin-bottom: 3rem;
     }
-    /* FEATURES SECTION END */
+    /* ABOUT SECTION END */
 }

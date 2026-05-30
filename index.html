@@ -17,7 +17,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution { font-size: 0.6875rem; text-align: center; color: #ffffff;}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
@@ -118,27 +118,29 @@
   <main>
     <!-- ABOUT SECTION -->
     <section class="about">
-      <h2 class="about-title">Designed for the future</h2>
-      <div class="about-content">
-        <div class="about-illustration">
-          <picture>
-            <source media="(min-width:1140px)" srcset="images/illustration-editor-desktop.svg" class="desktop-illustration">
-            <img src="images/illustration-editor-mobile.svg" alt="edito illustration">
-          </picture>
-        </div>
-
-        <div class="about-copy">
-          <h3 class="about-heading">Introducing an extensible editor</h3>
-          <p class="about-text">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
-          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
-          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
-          change the looksof a blog.</p>
-
-          <h3 class="about-heading">Robust content management</h3>
-          <p class="about-text">Flexible content management enables users to easily move through posts. Increase the usability of your blog
-          by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+      <div class="container">
+        <h2 class="about-title heading">Designed for the future</h2>
+        <div class="about-content">
+          <div class="about-illustration">
+            <picture>
+              <source media="(min-width:1140px)" srcset="images/illustration-editor-desktop.svg" class="desktop-illustration">
+              <img src="images/illustration-editor-mobile.svg" alt="edito illustration">
+            </picture>
+          </div>
+        
+          <div class="about-copy">
+            <h3 class="about-heading heading">Introducing an extensible editor</h3>
+            <p class="about-text text">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+            change the looksof a blog.</p>
+        
+            <h3 class="about-heading heading">Robust content management</h3>
+            <p class="about-text text">Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+          </div>
         </div>
       </div>
+        
     </section>
 
     <!-- FEATURES SECTION -->
@@ -155,41 +157,75 @@
         </div>
       </div>
     </section>
+
+    <section class="follow-up-info">
+      <div class="container">
+        <div class="follow-up-info-content">
+          <figure class="follow-up-info-media">
+            <picture>
+              <source media="(min-width: 1140px)" srcset="images/illustration-laptop-desktop.svg">
+              <img src="images/illustration-laptop-mobile.svg" alt="">
+            </picture>
+          </figure>
+          <div class="follow-up-info-text">
+            <article>
+              <h2 class="heading">Free, open, simple</h2>
+              <p class="text">Blogr is a free and open source application backed by a large community of helpful developers. It supports
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+              and works seamlessly with Google Analytics. The architecture is clean and is relativelyeasy to learn.</p>
+            </article>
+
+            <article>
+              <h2 class="heading">Powerful tooling</h2>
+              <p class="text">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+              capable of producing even the most complicated sites.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="Footer logo">
+        </div>
 
-  Powerful tooling
-  Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-  capable of producing even the most complicated sites.
-
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
+        <div class="footer-links-wrapper">
+          <ul class="footer-links">
+            <h3>Product</h3>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Integrations</a></li>
+          </ul>
   
-  Contact
-  Newsletter
-  LinkedIn
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+          <ul class="footer-links">
+            <h3>Company</h3>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+  
+          <ul class="footer-links">
+            <h3>Connect</h3>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+        
+      </div>
+  
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
   </footer>
 
   <script src="script.js"></script>

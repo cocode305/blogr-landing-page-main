@@ -58,14 +58,6 @@ dropDownList.addEventListener('click', (e) => {
     
 });
 
-// window.addEventListener("click", () => {
-//   for (i = 0; i < dropdownMenus.length; i++) {
-//     if (dropdownMenus[i].classList.contains("active")) {
-//       dropdownMenus[i].classList.remove("active");
-//     }
-//   }
-// });
-
 window.addEventListener('resize', () => {
     let newMode = getMode();
 
